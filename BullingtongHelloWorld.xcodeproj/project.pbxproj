@@ -99,10 +99,10 @@
 			children = (
 				68B5B193220291C300495C3F /* AppDelegate.swift */,
 				68B5B197220291C300495C3F /* Main.storyboard */,
+				68B5B1C12203B27600495C3F /* HelloWorldViewController.swift */,
 				68B5B19A220291C600495C3F /* Assets.xcassets */,
 				68B5B19C220291C600495C3F /* LaunchScreen.storyboard */,
 				68B5B19F220291C600495C3F /* Info.plist */,
-				68B5B1C12203B27600495C3F /* HelloWorldViewController.swift */,
 			);
 			path = BullingtongHelloWorld;
 			sourceTree = "<group>";

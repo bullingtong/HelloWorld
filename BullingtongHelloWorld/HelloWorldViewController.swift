@@ -10,13 +10,22 @@ import UIKit
 
 class HelloWorldViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func doHello(_ sender: UIButton) {
+        messageLabel.text = "Hello World!"
+    }
+    
+    @IBAction func doClear(_ sender: UIButton) {
+        messageLabel.text = ""
+    }
+    
+    
     /*
     // MARK: - Navigation
 
